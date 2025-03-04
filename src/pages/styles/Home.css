@@ -1,0 +1,30 @@
+/* Main container styling */
+.home-container {
+    max-width: 600px;
+    margin: 50px auto; /* Center the box */
+    padding: 20px;
+    border: 2px solid #333; /* Border around the content */
+    border-radius: 30px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light gray background */
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Title and description styling (same size) */
+  .home-text {
+    font-size: 24px; /* Make title and description equal */
+    font-weight: bold; /* Both should have the same font weight */
+    color: #222;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* Style for span inside title and description */
+  .home-text span {
+    font-size: 24px; /* Keep text size equal */
+    font-weight: bold;
+    color: #333; /* Slightly darker for emphasis */
+  }
+  

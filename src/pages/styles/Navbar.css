@@ -1,4 +1,9 @@
 /* Navbar Styling */
+* {
+  box-sizing: border-box; /* Ensures padding/border don't add extra width */
+  margin: 0;
+  padding: 0;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -6,6 +11,8 @@
     padding: 15px 30px;
     background-color: #130b3f;
     color: white;
+    height: 60px;
+    
   }
   
   /* Styling for the list */

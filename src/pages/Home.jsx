@@ -1,11 +1,21 @@
-import React from 'react'
 
-const Home = () => {
+import './styles/Home.css';
+
+const Home = (props) => {
+  if (!props.title || !props.description) {
+    return null; 
+  }
+
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className="home-container">
+      <p className="home-text">
+        Title: <span>{props.title}</span>
+      </p>
+      <p className="home-text">
+        Description: <span>{props.description}</span>
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

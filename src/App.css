@@ -1,0 +1,15 @@
+
+/* Main layout: Sidebar + Content */
+.app-container {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 100px; /* Push content to the right of sidebar */
+    padding: 20px;
+    flex: 1;
+  }
+  
+
+ 
+  
